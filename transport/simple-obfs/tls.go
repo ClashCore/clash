@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Dreamacro/clash/common/pool"
+	"github.com/ClashCore/clash/common/pool"
 
-	"github.com/Dreamacro/protobytes"
+	"github.com/ClashCore/protobytes"
 )
 
 const (

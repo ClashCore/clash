@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/Dreamacro/clash/component/mmdb"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/ClashCore/clash/component/mmdb"
+	C "github.com/ClashCore/clash/constant"
+	"github.com/ClashCore/clash/log"
 )
 
 func downloadMMDB(path string) (err error) {
-	resp, err := http.Get("https://cdn.jsdelivr.net/gh/Dreamacro/maxmind-geoip@release/Country.mmdb")
+	resp, err := http.Get("https://cdn.jsdelivr.net/gh/ClashCore/maxmind-geoip@release/Country.mmdb")
 	if err != nil {
 		return
 	}

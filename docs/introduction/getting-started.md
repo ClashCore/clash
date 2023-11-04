@@ -13,11 +13,11 @@ You can download Clash core binaries here: [https://github.com/Dreamacro/clash/r
 
 ## Install from source
 
-You can build Clash on your own device with Golang 1.19+:
+You can build Clash on your own device with Golang 1.21+:
 
 ```shell
-$ go install github.com/Dreamacro/clash@latest
-go: downloading github.com/Dreamacro/clash v1.15.1
+$ go install github.com/ClashCore/clash@latest
+go: downloading github.com/ClashCore/clash v1.18.0
 ```
 
 The binary is built under `$GOPATH/bin`:
@@ -32,7 +32,7 @@ Clash unknown version darwin arm64 with go1.20.3 unknown time
 Golang supports cross-compilation, so you can build for a device on a different architecture or operating system. You can use _make_ to build them easily - for example:
 
 ```shell
-$ git clone --depth 1 https://github.com/Dreamacro/clash
+$ git clone --depth 1 https://github.com/ClashCore/clash
 Cloning into 'clash'...
 remote: Enumerating objects: 359, done.
 remote: Counting objects: 100% (359/359), done.
@@ -42,7 +42,7 @@ Receiving objects: 100% (359/359), 248.99 KiB | 1.63 MiB/s, done.
 Resolving deltas: 100% (25/25), done.
 $ cd clash && make darwin-arm64
 fatal: No names found, cannot describe anything.
-GOARCH=arm64 GOOS=darwin CGO_ENABLED=0 go build -trimpath -ldflags '-X "github.com/Dreamacro/clash/constant.Version=unknown version" -X "github.com/Dreamacro/clash/constant.BuildTime=Mon May  8 16:47:10 UTC 2023" -w -s -buildid=' -o bin/clash-darwin-arm64
+GOARCH=arm64 GOOS=darwin CGO_ENABLED=0 go build -trimpath -ldflags '-X "github.com/ClashCore/clash/constant.Version=unknown version" -X "github.com/ClashCore/clash/constant.BuildTime=Mon May  8 16:47:10 UTC 2023" -w -s -buildid=' -o bin/clash-darwin-arm64
 $ file bin/clash-darwin-arm64
 bin/clash-darwin-arm64: Mach-O 64-bit executable arm64
 ```

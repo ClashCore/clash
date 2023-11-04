@@ -20,10 +20,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/ClashCore/clash/adapter/outbound"
+	C "github.com/ClashCore/clash/constant"
+	"github.com/ClashCore/clash/hub/executor"
+	"github.com/ClashCore/clash/transport/socks5"
 )
 
 const (

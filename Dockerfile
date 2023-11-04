@@ -1,7 +1,7 @@
 FROM --platform=${BUILDPLATFORM} golang:alpine as builder
 
 RUN apk add --no-cache make git ca-certificates && \
-    wget -O /Country.mmdb https://github.com/Dreamacro/maxmind-geoip/releases/latest/download/Country.mmdb
+    wget -O /Country.mmdb https://github.com/ClashCore/maxmind-geoip/releases/latest/download/Country.mmdb
 WORKDIR /workdir
 COPY --from=tonistiigi/xx:golang / /
 ARG TARGETOS TARGETARCH TARGETVARIANT

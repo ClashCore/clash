@@ -3,7 +3,7 @@ module clash-test
 go 1.21
 
 require (
-	github.com/Dreamacro/clash v1.12.0
+	github.com/ClashCore/clash v1.18.0
 	github.com/docker/docker v24.0.5+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/miekg/dns v1.1.55
@@ -11,10 +11,10 @@ require (
 	go.uber.org/automaxprocs v1.5.3
 )
 
-replace github.com/Dreamacro/clash => ../
+replace github.com/ClashCore/clash => ../
 
 require (
-	github.com/Dreamacro/protobytes v0.0.0-20230617041236-6500a9f4f158 // indirect
+	github.com/ClashCore/protobytes v0.0.1 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
