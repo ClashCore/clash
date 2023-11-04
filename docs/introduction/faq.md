@@ -5,7 +5,7 @@ sidebarOrder: 4
 
 # Frequently Asked Questions
 
-Here we have some common questions people ask. If you have any questions not listed here, feel free to [open an issue](https://github.com/Dreamacro/clash/issues/new/choose).
+Here we have some common questions people ask. If you have any questions not listed here, feel free to [open an issue](https://github.com/ClashCore/clash/issues/new/choose).
 
 [[toc]]
 
