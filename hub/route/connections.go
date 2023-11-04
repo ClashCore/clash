@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Dreamacro/clash/tunnel/statistic"
+	"github.com/ClashCore/clash/tunnel/statistic"
 
-	"github.com/Dreamacro/protobytes"
+	"github.com/ClashCore/protobytes"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	"github.com/gorilla/websocket"
